@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yelloish_200"
+    tools:context=".ui.fragments.Fragment01">
+
+    <ScrollView
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_above="@id/submitBtn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="60dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/question_3"
+                android:textSize="36sp"
+                android:textColor="@color/black"/>
+
+
+            <CheckBox
+                android:layout_marginTop="30dp"
+                android:id="@+id/white_checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/white"
+                android:textColor="@color/black"
+                android:fontFamily="@font/montserrat"
+                android:textSize="25sp"/>
+            <CheckBox
+                android:layout_marginTop="10dp"
+                android:id="@+id/yellow_checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/yellow"
+                android:textColor="@color/black"
+                android:fontFamily="@font/montserrat"
+                android:textSize="25sp"/>
+            <CheckBox
+                android:layout_marginTop="10dp"
+                android:id="@+id/orange_checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/orange"
+                android:textColor="@color/black"
+                android:fontFamily="@font/montserrat"
+                android:textSize="25sp"/>
+            <CheckBox
+                android:layout_marginTop="10dp"
+                android:id="@+id/green_checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/green"
+                android:textColor="@color/black"
+                android:fontFamily="@font/montserrat"
+                android:textSize="25sp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="end"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:textColor="@color/yelloish_200"
+        android:fontFamily="@font/montserrat"
+        android:textSize="18sp"
+        android:backgroundTint="@color/black"/>
+
+
+
+</RelativeLayout>

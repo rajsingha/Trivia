@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="8dp">
+
+    <LinearLayout
+        android:layout_margin="8dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/game_id_dateTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:textSize="16sp"
+            android:textColor="@color/grey"
+            android:text="GAME 1: 18th March 12:30 pm"/>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/userName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:textSize="16sp"
+            android:textColor="@color/grey"
+            android:text="Name : Raj Singha"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/question2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:textSize="16sp"
+            android:textColor="@color/grey"
+            android:text="@string/question_2"/>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/answer2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:textSize="14sp"
+            android:textColor="@color/grey"
+            android:text="Answer: Virat kohli"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/question3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:textSize="16sp"
+            android:textColor="@color/grey"
+            android:text="@string/question_3"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/answer3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:textSize="14sp"
+            android:textColor="@color/grey"
+            android:text="Answer: Yellow , Green"/>
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
